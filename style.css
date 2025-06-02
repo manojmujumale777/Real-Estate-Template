@@ -1,0 +1,1263 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+/* Navbar section CSS */
+
+.navbar-section{
+    background-image: linear-gradient(rgba(48, 52, 65, 0.65),rgba(0,0,0,0.5)), url(images/icon_box_bg.jpg);
+    background-size: cover;
+    height: 862px;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    height: 42px;
+    width: 242px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 435px;
+}
+
+.Home{
+    background-color: #234DD4;
+    color: white;
+    padding: 5px 5px;
+}
+
+.nav-menu i{
+    font-size: larger;
+    color: white;
+}
+
+/* icons of background image CSS  */
+
+.elements{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.add-icon a{
+    border: 1px solid white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.loop-icon a{
+    border: 1px solid white;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+}
+
+/* Text on the background image CSS  */
+
+.hero-text{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+
+/* Tabs on the background image CSS  */
+
+.nav-tabs{
+    height: 250px;
+    width: 90%;
+    background-color: black;
+    position: absolute;
+    top: 400px;
+    left: 13px;
+}
+
+.list ul{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-fill{
+    padding-left: 20px;
+}
+.input-fill input{
+    padding: 10px 20px;
+    width: 250px;
+} 
+
+.button{
+    padding: 10px; 
+    margin-left: 5px;
+    width: 250px;
+    text-align: left;
+}
+
+.button option{
+    color: black;
+}
+
+.btn{
+    padding: 10px 10px;
+    margin-left: 20px;
+    width: 250px;
+    text-align: left;
+    border: none;
+}
+
+/* Explore Section Start CSS  */
+
+.explore-section{
+    height: 556px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.explore{
+    height: 451px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.explore-heading{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.explore-heading span{
+    font-size: 20px;
+}
+
+.map{
+    height: 376px;
+    width: 300px;
+    border: 1px solid black;
+}
+
+.map img{
+    height:300px ;
+    width: 300px;
+}
+
+.img-info{
+    color: black;
+    box-sizing: border-box;
+    padding: 10px 10px;
+}
+
+.img-info i{
+    padding: 0px 5px 0px 0px;
+}
+
+/* Featured Properties Section Start CSS  */
+ 
+.properties{
+    height: 700px;
+    background-color: #EDEDED;
+    padding: 50px 0px 15px 0px;
+    box-sizing: border-box;
+}
+
+.featured-properties{
+    text-align: center;
+}
+
+.property-img{
+    height: 542px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.property{
+    height: 450px;
+    width: 320px;
+    border: 1px solid black;
+}
+
+.figure1{
+    position: relative;
+}
+
+.sold{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    height: 20px;
+    width: 50px;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
+.figure1 img {
+    width: 100%;
+    height: 250px;
+}
+.text1{
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+.fig-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 40px;
+}
+.fig-foot{
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Sold properties CSS Start  */
+
+.sold-properties{
+    height:1700px ;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+
+}
+.sold-fig{
+    position: relative;
+}
+.sold{
+    position: absolute;
+}
+
+.sold-property{
+    height: 1600px;
+
+}
+
+.sold1{
+    height: 400px;
+}
+.sold2{
+    height: 400px;
+}
+.sold3{
+    height: 400px;
+}
+.sold4{
+    height: 400px;
+}
+.sold-fig img{
+    height: 250px;
+    width: 100%;
+}
+.sold-caption {
+    padding-left: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+.sold-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* rent prpperties  */
+.rent{
+    padding: 10px;
+}
+
+/* Que Container Section CSS  */
+
+.que-container{
+    height: 500px;
+    background-image: url(images/call-to-action.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.div-section{
+    height:200px ;
+    width: 80%;
+    background-color: blue;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.div-section p{
+    padding: 20px;
+}
+
+/* Properties by Cities Sction CSS  */
+
+.cities{
+    height: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.citie-img{
+    background-image: url(images/location_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.citie-h2{
+    text-align: left;
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.citie{
+    height:180px ;
+    width: 90%;
+    background-color: brown;
+    position: relative;
+}
+
+.citie img{
+    height:180px ;
+    width: 100%;
+    /* position: relative; */
+}
+
+.citie h3{
+    position: absolute;
+    top: 110px;
+    left: 130px;
+    color: white;
+    font-size: 28px;
+}
+
+.citie p{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: white;
+}
+
+/* Choose us Section CSS Start  */
+
+.choose-us{
+    height: 880px;
+    background-color: #303441;
+    background-image: url(images/transparent-ancient-right_new.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+}
+
+.choose-us h2{
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.choose-us hr{
+    width: 80%;
+    color: #43C370;
+}
+
+.Choose-para{
+    height:250px ;
+    width: 100%;
+    text-align: center;
+    padding: 36px 20px 36px 20px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.Choose-para-icon i{
+    font-size: 50px;
+    color: white;
+}
+
+.Choose-para h3{
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+
+.Choose-para p{
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+/* Real Estate Agent Section Start  */
+
+.real-estste{
+    height: 370px;
+    background-color: rgb(16, 19, 244);
+    text-align: center;
+    color: white;
+    padding-top: 40px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.real-estste-icon{
+    font-size: 50px;
+}
+
+.real-estste-h2{
+    padding: 20px;
+    font-size: 42px;
+    color: #ffffff;
+}
+
+.estate-btn{
+    height: 30px;
+    padding: 20px 20px;
+    height: 60px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+
+.estate-btn span{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    padding: 10px;
+}
+
+/* Partners Section Start  */
+
+.our-partner{
+    height: 450px;
+}
+
+.partner-h2{
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.partners{
+    height:350px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.partner-img{
+    height: 70px;
+    width: 80%;
+    text-align: center;
+}
+
+.partner-img img{
+    height: 70px;
+    width: 80%;
+}
+
+/* Footer Section Start  */
+
+.footer{
+    height: 1050px;
+    background-color: #303441;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.footer-sub{
+    height: 200px;
+    width: 100%;
+    margin-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+}
+
+.footer-sub h6{
+    font-weight: 600;
+}
+
+.input input{
+    width: 90%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.footer-btn{
+    margin-top: 10px;
+    padding:10px ;
+    width: 90%;
+    background-color: #234DD4;
+    color: white;
+    border: none;
+}
+
+.more{
+    color: blue;
+}
+
+.footer-hr{
+    width: 80%;
+    color: white;
+}
+
+.footer-sub--copyright{
+    height: 150px;
+    width: 100%;
+    margin-top: 20px;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-align: center;
+}
+
+.foot-span{
+    margin-top: 10px;
+}
+
+.footer-icon{
+    height: 40px;
+    background-color: #303441;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.foot-icon{
+    height: 30px;
+    width: 40px;
+}
+
+.foot-icon i{
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+@media(min-width:320px){
+    .navbar{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    .navbar-section{
+        height: 800px;
+        width: 100%;
+    }
+
+    .hero-text{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 20px;
+    }
+
+    .btn{
+        background-color: #234DD4;
+        color: white;
+    }
+
+    .input-fill{
+        margin: 10px 0px 10px 0px;
+    }
+
+    .nav-tabs{
+        height: 280px;
+        width: 90%;
+        background-color: #343742;
+    }
+
+    .map2{
+        display: none;
+    }
+
+    .map3{
+        display: none;
+    } 
+
+    .property2{
+        display: none;
+    }
+    .property3{
+        display: none;
+    }
+
+    .citie h3{
+        left: 80px;
+    }
+    
+    .citie p{
+        left: 110px;
+    }
+}
+
+@media(min-width: 768px){
+
+    .menu ul{
+        display: none;
+    }
+    .hero-text{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 200px;
+        left: 90px;
+    }
+
+    .text h1{
+        font-size: 44px;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        font-family: "Raleway";
+    }
+    
+    /* Tabs on the background image CSS  */
+    
+    .nav-tabs{
+        height: 180px;
+        width: 90%;
+        background-color: #343742;
+        position: absolute;
+        top: 400px;
+        left: 40px;
+    }
+    .list-tabs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .input-fill input{
+        padding: 10px 20px;
+        width: 190px;
+    } 
+    
+    .button{
+        padding: 10px; 
+        margin-left: 5px;
+        width: 250px;
+        text-align: left;
+        background: transparent;
+        border: none;
+        color: white;
+    }
+    
+    .btn{
+        padding: 10px 10px;
+        margin-left: 20px;
+        width: 250px;
+        text-align: left;
+        background-color: #234DD4;
+        color: white;
+    }
+
+    .btn i{
+        padding: 0px 10px 0px 0px;
+    }
+
+    /* Explore Section  */
+
+    .explore-section{
+        height: 556px;
+    }
+    
+    .explore-heading{
+        height: 70px;
+        width: 100%;
+        display: block;
+        padding-top: 40px;
+        padding-left: 40px;
+        font-size: 25px;
+        font-weight: 500;
+        font-family: "Raleway";
+        color: rgba(48, 52, 65, 1);
+        box-sizing: border-box;
+    }
+    .explore-heading span{
+        font-size: 32px;
+    }
+
+    .explore{
+        height: 451px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .map{
+        height: 376px;
+        width: 40%;
+        border: 1px solid black;
+    }
+    
+    .map img{
+        height:300px ;
+        width: 100%;
+    }
+    
+    .img-info{
+        color: black;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    .map2{
+        height: 376px;
+        width: 40%;
+        border: 1px solid black;
+        display: block;
+    }
+    
+    .map2 img{
+        height:300px ;
+        width: 100%;
+    }
+    
+    .img-info{
+        color: black;
+        box-sizing: border-box;
+        padding: 10px 10px;
+    }
+
+    /* featured Property Section  */
+    .properties{
+        height: 700px;
+        background-color: #EDEDED;
+        padding: 50px 0px 15px 0px;
+        box-sizing: border-box;
+    }
+    
+    .featured-properties{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .feature{
+        padding-left: 30px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .feature h2{
+        font-size: 35px;
+    }
+
+    .rent{
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .property2{
+        height: 450px;
+        width: 320px;
+        border: 1px solid black;
+        display: block;
+    }
+    
+    .figure1{
+        position: relative;
+    }
+    .sold{
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        height: 20px;
+        width: 50px;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+    .figure1 img {
+        width: 100%;
+        height: 250px;
+    }
+    .text1{
+        padding: 10px 30px;
+        box-sizing: border-box;
+    }
+    .fig-text{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        line-height: 40px;
+    }
+    .fig-foot{
+        text-align: center;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+
+    /* Sold Property Section  */
+
+    .sold-properties{
+        height:950px ;
+        width: 100%;
+    }
+
+    .sold-property{
+        height: 800px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .sold1{
+        height: 400px;
+        width: 48%;
+    }
+    .sold2{
+        height: 400px;
+        width: 48%;
+    }
+    .sold3{
+        height: 400px;
+        width: 48%;
+    }
+    .sold4{
+        height: 400px;
+        width: 48%;
+    }
+    .sold-fig img{
+        height: 250px;
+        width: 100%;
+    }
+    .sold-caption {
+        padding-left: 30px;
+        box-sizing: border-box;
+        line-height: 30px;
+    }
+    .sold-text{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* Question Section  */
+
+    .que-container{
+        height: 400px;
+        background-image: url(images/call-to-action.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .div-section{
+        height:200px ;
+        width: 40%;
+        background-color: blue;
+        text-align: center;
+        color: white;
+        box-sizing: border-box;
+        padding-top: 50px;
+    }
+    
+    .div-section p{
+        padding: 20px;
+    }
+
+
+    /* cities Section  */
+
+    .cities{
+        height: 750px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .citie-img{
+        background-image: url(images/location_bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .citie-h2{
+        text-align: left;
+        padding: 30px 30px;
+        box-sizing: border-box;
+        font-size: 35px;
+    }
+    
+    .citie{
+        height:180px ;
+        width: 40%;
+        background-color: brown;
+    }
+    
+    .citie img{
+        height:180px ;
+        width: 100%;
+        /* position: relative; */
+    }
+
+
+ /* choose us section  */
+
+    .choose-us{
+        height: 600px;
+        background-color: #303441;
+        background-image: url(images/transparent-ancient-right_new.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 20px;
+    }
+    
+    .choose-us h2{
+        color: white;
+        font-size: 42px;
+        font-weight: 600;
+        box-sizing: border-box;
+    }
+    
+    .choose-us hr{
+        width: 90%;
+        color: #43C370;
+    }
+    
+    .Choose-para{
+        height:150px ;
+        width: 90%;
+        text-align: left;
+        box-sizing: border-box;
+        display: flex;
+        color: white;
+    }
+    
+    .Choose-para-icon i{
+        font-size: 50px;
+        color: white;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    
+    .Choose-para h3{
+        box-sizing: border-box;
+        display: block;
+    }
+    
+    .Choose-para p{
+        box-sizing: border-box;
+    }
+
+    .choose-container{
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    /* Our Partners Section  */
+    .our-partner{
+        height: 450px;
+    }
+    
+    .partner-h2{
+        text-align: center;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: "Raleway";
+        color: rgba(48, 52, 65, 1);
+        font-size: 23px;
+    }
+    
+    .partners{
+        height:350px ;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .partner-img{
+        height: 70px;
+        width: 40%;
+        text-align: center;
+    }
+    
+    .partner-img img{
+        height: 70px;
+        width: 80%;
+    }
+
+    /* footer Section Start  */
+
+    .footer{
+        height: 700px;
+        background-color: #303441;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: white;
+    
+    }
+    
+    .footer-sub{
+        height: 200px;
+        width: 50%;
+        margin-top: 20px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        line-height: 30px;
+    }
+    
+    .footer-sub h6{
+        font-weight: 600;
+        font-size: large;
+    }
+    
+    .footer-sub--copyright{
+        height: 100px;
+        width: 100%;
+        margin-top: 20px;
+        box-sizing: border-box;
+        line-height: 30px;
+        text-align: center;
+    }
+    
+    .foot-span{
+        margin-top: 10px;
+    }
+    
+    .footer-icon{
+        height: 40px;
+        background-color: #303441;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .foot-icon{
+        height: 30px;
+        width: 40px;
+    }
+    
+    .foot-icon i{
+        font-size: 20px;
+        padding-top: 5px;
+    }
+
+}
+
+
+@media(min-width:992px){
+
+    .menu ul{
+        display: block;
+        display: flex;
+        color: white;
+    }
+    .hero-text{
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 230px;
+        left: 275px;
+    }
+
+    .list ul{
+        padding: 20px 140px;
+        box-sizing: border-box;
+    }
+
+    /* Explore Neighborhoods section */
+
+    .map{
+        height: 376px;
+        width: 30%;
+        border: 1px solid black;
+    }
+
+    .explore-heading span{
+        font-size: 42px;
+    }
+
+    .map2{
+        height: 376px;
+        width: 30%;
+        border: 1px solid black;
+        display: block;
+    }
+    
+
+    .map3{
+        height: 376px;
+        width: 30%;
+        border: 1px solid black;
+        display: block;
+    }
+    
+    .map3 img{
+        height:300px ;
+        width: 100%;
+    }
+
+    .property3{
+        height: 450px;
+        width: 320px;
+        border: 1px solid black;
+        display: block;
+    }
+
+    /* fetured property section  */
+
+    .properties{
+        height: 630px;
+        padding: 0px;
+    }
+
+    .property-img{
+        height: 470px;
+    }
+
+    .feature h2{
+        font-size: 40px;
+    }
+
+
+    /* Citie Property  */
+    .citie h3{
+        left: 130px;
+    }
+    
+    .citie p{
+        left: 150px;
+    }
+
+    .citie-h2{
+        font-size: 40px;
+    }
+
+    /* Sold Property Section  */
+
+    .sold-properties{
+        height:550px ;
+        width: 100%;
+    }
+
+    .sold-property{
+        height: 400px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .sold1{
+        height: 400px;
+        width: 23%;
+    }
+    .sold2{
+        height: 400px;
+        width: 23%;
+    }
+    .sold3{
+        height: 400px;
+        width: 23%;
+    }
+    .sold4{
+        height: 400px;
+        width: 23%;
+    }
+    .sold-fig img{
+        height: 250px;
+        width: 100%;
+    }
+    .sold-caption {
+        padding-left: 30px;
+        box-sizing: border-box;
+        line-height: 30px;
+    }
+    .sold-text{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    /* Our Partners Section  */
+
+    .our-partner{
+        height: 310px;
+    }
+    .partners{
+        height: 200px;
+    }
+    .partner-img{
+        width: 20%;
+    }
+
+    /* Footer Section  */
+    .footer-sub--copyright{
+        display: flex;
+        justify-content: space-around;
+        height: 100px;
+    }
+
+    .footer-sub{
+        padding-left: 80px;
+        box-sizing: border-box;
+    }
+
+
+
+}
